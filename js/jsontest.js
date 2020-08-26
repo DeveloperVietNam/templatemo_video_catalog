@@ -12,7 +12,7 @@ function readTextFile(file, callback) {
 
 $(document).ready(function () {
     //usage:
-    readTextFile("../data/categories.json", function(text){
+    readTextFile("master/data/categories.json", function(text){
         var data = JSON.parse(text);
         console.log(data);
     });
